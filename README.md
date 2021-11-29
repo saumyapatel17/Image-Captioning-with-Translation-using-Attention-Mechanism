@@ -11,13 +11,14 @@ weighted traditional over the uprooted purpose vectors for every time step.
 # Datasets
 There are various datasets available for image captioning varying in terms of number of
 images and their attributes. 
- MS COCO Dataset: 300k images, nearby 2 million objects, 80 different categories of
-objects, and 05 captions for each image.
- Flickr30K Dataset: 30k images with 158k annotators.
- Flickr8K Dataset: 8K images, 6k for training and rest 2k for testing and validation.
- MIT-Adobe 5k Dataset: Dataset consists of 5,000 images. This dataset contains various
-kinds of images based on different subjects, scenes, conditions, lighting etc.
- FlickrStyle10K Dataset: This dataset has 10k images with stylized captions. Among
+<ul>
+<li> MS COCO Dataset: 300k images, nearby 2 million objects, 80 different categories of
+  objects, and 05 captions for each image.</li>
+<li> Flickr30K Dataset: 30k images with 158k annotators.</li>
+<li> Flickr8K Dataset: 8K images, 6k for training and rest 2k for testing and validation.</li>
+<li> MIT-Adobe 5k Dataset: Dataset consists of 5,000 images. This dataset contains various
+kinds of images based on different subjects, scenes, conditions, lighting etc.</li>
+<li> FlickrStyle10K Dataset: This dataset has 10k images with stylized captions. Among
 these, there are 7k training images, 2k for testing and 1k for validation purpose. The
-images are based on romantic, humorous and some factual scenes. 
-
+images are based on romantic, humorous and some factual scenes. </li>
+</ul>
