@@ -22,3 +22,23 @@ kinds of images based on different subjects, scenes, conditions, lighting etc.</
 these, there are 7k training images, 2k for testing and 1k for validation purpose. The
 images are based on romantic, humorous and some factual scenes. </li>
 </ul>
+
+# Performance Metrics
+<ul>
+<li> BLEU: The metric is Bilingual evaluation understudy that compares the generated
+caption with referenced caption and word to word matching takes place. On an
+average score is computed. However, syntactical correctness is not measured here.</li>
+<li> Generated Text: This is for test Reference Text: This is only test (score 0.75 or 75%)
+BLUE-1 matches word to word. Similarly, we have BLUE-2, BLUE-3, BLUE-4 evaluation
+metrics for pair wise matching.</li>
+<li> CIDEr: (Consensus-based Image De- scription Evaluation) This metric measures the
+similarity of a generated sentence against a set of ground truth sentences written by
+humans.</li>
+<li> ROUGE: The metric is Recall-Oriented Understudy for Gisting Evaluation that
+measures the quality of textual summaries.</li>
+<li> METEOR: It is Metric for Evaluation of Translation with Explicit Ordering and is useful
+to measure stems of a sentence and synonym for words. This is a better approach to
+make a better correlation at the sentence or the segment level. </li>
+</ul>
+
+
