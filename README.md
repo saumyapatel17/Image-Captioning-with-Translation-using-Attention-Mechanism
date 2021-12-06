@@ -42,3 +42,4 @@ make a better correlation at the sentence or the segment level. </li>
 </ul>
 
 
+Clone the project from the given link: https://drive.google.com/drive/folders/1maI9b8bSExOPqGOSsrnogZBAiyPGtfd4?usp=sharing
