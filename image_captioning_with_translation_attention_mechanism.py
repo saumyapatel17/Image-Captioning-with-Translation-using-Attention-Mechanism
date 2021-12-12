@@ -577,6 +577,7 @@ r_score = scorer.score(real_caption,result_final)
 score = sentence_bleu(reference, candidate)
 meteor = meteor_score(reference, candidate)
 print(f"METEOR score: {meteor*100}")
+print(f"ROUGE-L score: {r_score*100}")
 print(f"BLEU score: {score*100}")
 # print(f"CIDEr score: {cider_score}")
 
