@@ -31,9 +31,6 @@ average score is computed. However, syntactical correctness is not measured here
 <li> Generated Text: This is for test Reference Text: This is only test (score 0.75 or 75%)
 BLUE-1 matches word to word. Similarly, we have BLUE-2, BLUE-3, BLUE-4 evaluation
 metrics for pair wise matching.</li>
-<li> CIDEr: (Consensus-based Image De- scription Evaluation) This metric measures the
-similarity of a generated sentence against a set of ground truth sentences written by
-humans.</li>
 <li> ROUGE: The metric is Recall-Oriented Understudy for Gisting Evaluation that
 measures the quality of textual summaries.</li>
 <li> METEOR: It is Metric for Evaluation of Translation with Explicit Ordering and is useful
