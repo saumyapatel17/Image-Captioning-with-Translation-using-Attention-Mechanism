@@ -70,7 +70,7 @@ nltk.download('wordnet')
 !pip install rouge-score
 
 from rouge_score import rouge_scorer
-from pycocoevalcap.cider.cider import Cider
+# from pycocoevalcap.cider.cider import Cider
 
 """# **Data loading and Preprocessing**"""
 
@@ -111,15 +111,15 @@ data.head()
 count = 1
 
 fig = plt.figure(figsize=(10,20))
-for jpgName in unique_file[10:14]:
+for jpgName in unique_file[10:16]:
    ImageName = image_path + '/' + jpgName
    captions = list(data["Caption"].loc[data["ImageName"]==jpgName].values)
    image_load = load_img(ImageName, target_size=(224,224,3))
-   ax = fig.add_subplot(5,2,count,xticks=[],yticks=[])
+   ax = fig.add_subplot(10,2,count,xticks=[],yticks=[])
    ax.imshow(image_load)
    count += 1
 
-   ax = fig.add_subplot(5,2,count)
+   ax = fig.add_subplot(10,2,count)
    plt.axis('off')
    ax.plot()
    ax.set_xlim(0,1)
